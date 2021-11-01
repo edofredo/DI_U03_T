@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 /**
  *
  * @author Cristian
- * Cambios
+ * 
  */
 public class DI_U03_T extends Application {
     
