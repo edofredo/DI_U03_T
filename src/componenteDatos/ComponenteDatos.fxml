@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import componenteRestriccion.*?>
+
+<VBox   maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" 
+        minWidth="-Infinity" prefHeight="190.0" prefWidth="200.0" 
+        xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="componenteDatos.ComponenteDatosController">
+   <children>
+      <Label text="Nombre">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+      <RestrictiveTextField fx:id="tfNombre" patron="[a-zA-Z\s]" longitud="15" promptText="Introduce tu nombre">
+      </RestrictiveTextField>
+      <Label text="Apellidos">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+        </VBox.margin>
+      </Label>
+      <RestrictiveTextField fx:id="tfApellido" patron="[a-zA-Z\s]" longitud="15" promptText="Introduce tu apellido">      
+      </RestrictiveTextField>
+      <Label text="DNI">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+        </VBox.margin>
+      </Label>
+      <RestrictiveTextField fx:id="tfDNI" patron="[\w]" longitud="9" promptText="Introduce tu DNI">
+            <!--Insets bottom="5.0" left="5.0" right="5.0" top="5.0" /-->
+      </RestrictiveTextField>     
+   </children>
+</VBox>
