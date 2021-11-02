@@ -41,15 +41,33 @@ public class SuperficieCirculoTest {
      * Test of supCircunferencia method, of class SuperficieCirculo.
      */
     @Test
-    public void testSupCircunferencia() {
-        System.out.println("supCircunferencia");
+    public void testSupCircunferencia1() {
+        System.out.println("supCircunferencia para 0");
         double r = 0.0;
         SuperficieCirculo instance = new SuperficieCirculo();
         double expResult = 0.0;
         double result = instance.supCircunferencia(r);
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(expResult, result,0.0);  
+    }
+    
+    @Test
+    public void testSupCircunferencia2() {
+        System.out.println("supCircunferencia para números <0");
+        double r = -10;
+        SuperficieCirculo instance = new SuperficieCirculo();
+        double expResult = 0;
+        double result = instance.supCircunferencia(r);
+        assertEquals(expResult, result,0.0);  
+    }
+    
+    @Test
+    public void testSupCircunferencia3() {
+        System.out.println("supCircunferencia para números >0");
+        double r = 10;
+        SuperficieCirculo instance = new SuperficieCirculo();
+        double expResult = 314.1592653589793;
+        double result = instance.supCircunferencia(r);
+        assertEquals(expResult, result,0.0);  
     }
     
 }
