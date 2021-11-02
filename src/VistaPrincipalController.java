@@ -32,8 +32,8 @@ public class VistaPrincipalController implements Initializable {
     
     /**
      * Método que inicializa la clase controladora.
-     * @param url
-     * @param rb 
+     * @param url objeto de tipo URL
+     * @param rb objeto de tipo ResourceBundle
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -42,7 +42,7 @@ public class VistaPrincipalController implements Initializable {
     
     
     /**Método que genera la contraseña a partir de las entradas del usuario
-     * @param event 
+     * @param event objeto de tipo ActionEvent
      */ 
     @FXML 
     protected void generarContrasena(ActionEvent event){
@@ -61,7 +61,7 @@ public class VistaPrincipalController implements Initializable {
     }
     
     /**Método que limpia los campos
-     * @param event 
+     * @param event objeto de tipo ActionEvent
      */ 
     @FXML 
     protected void nuevosDatos(ActionEvent event){
@@ -70,7 +70,7 @@ public class VistaPrincipalController implements Initializable {
     }
     
     /**Método para salir de la aplicación
-     * @param event 
+     * @param event objeto de tipo ActionEvent
      */
     @FXML 
     protected void salir(ActionEvent event){

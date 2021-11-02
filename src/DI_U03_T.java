@@ -22,7 +22,7 @@ public class DI_U03_T extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("VistaPrincipal.fxml"));
         
         Scene scene = new Scene(root);
-        
+        stage.setTitle("Generador de contraseñas 1.0");
         stage.setScene(scene);
         stage.show();
         stage.setResizable(false);

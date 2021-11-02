@@ -26,8 +26,8 @@ public class ComponenteDatosController implements Initializable {
         
     /**
      * Método que inicializa la clase controladora.
-     * @param url
-     * @param rb
+     * @param url objeto de tipo URL
+     * @param rb objeto de tipo ResourceBundle
      */ 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -36,6 +36,7 @@ public class ComponenteDatosController implements Initializable {
     
     /**
      * Método que devuelve el nombre.
+     * @return tfNombre
      */
     public String getNombre(){
         String nom = tfNombre.getText();
@@ -44,6 +45,7 @@ public class ComponenteDatosController implements Initializable {
     
     /**
      * Método que devuelve el apellido.
+     * @return tfApellido
      */
     public String getApellido(){
         String nom = tfApellido.getText();
@@ -52,6 +54,7 @@ public class ComponenteDatosController implements Initializable {
     
     /**
      * Método que devuelve el dni.
+     * @return tfDNI
      */
     public String getDni(){
         String nom = tfDNI.getText();

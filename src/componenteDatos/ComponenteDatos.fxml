@@ -22,7 +22,8 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </VBox.margin>
       </Label>
-      <RestrictiveTextField fx:id="tfNombre" patron="[a-zA-Z\s]" longitud="30" promptText="Introduce tu nombre">
+      <RestrictiveTextField fx:id="tfNombre" patron="[a-zA-Z\s]" longitud="30" 
+                            promptText="Introduce tu nombre">
       </RestrictiveTextField>
       <Label text="Apellidos">
          <font>
@@ -32,7 +33,8 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
         </VBox.margin>
       </Label>
-      <RestrictiveTextField fx:id="tfApellido" patron="[a-zA-Z\s]" longitud="30" promptText="Introduce tu apellido">      
+      <RestrictiveTextField fx:id="tfApellido" patron="[a-zA-Z\s]" longitud="30" 
+                            promptText="Introduce tu apellido">      
       </RestrictiveTextField>
       <Label text="DNI">
          <font>
@@ -42,7 +44,8 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
         </VBox.margin>
       </Label>
-      <RestrictiveTextField fx:id="tfDNI" patron="[\w]" longitud="9" promptText="Introduce tu DNI">
+      <RestrictiveTextField fx:id="tfDNI" patron="[\w]" longitud="9" 
+                            promptText="Introduce tu DNI">
             <!--Insets bottom="5.0" left="5.0" right="5.0" top="5.0" /-->
       </RestrictiveTextField>     
    </children>

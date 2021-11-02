@@ -13,7 +13,7 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TextField;
 
-/**sddfgsdfgsdfgsdfg
+/**s
  * Creación de restricciones para campos de texto
  * @author Cristian
  */
@@ -64,37 +64,35 @@ public class RestrictiveTextField extends TextField {
 
     /**
      * Método que devuelve la propiedad longitud
-     * @return 
+     * @return longitud
      */
     public IntegerProperty longitudProperty() { return longitud; }
 
     /**
      * Método que devuelve la longitud declarada
-     * @return 
+     * @return entero de longitud
      */    
     public int getLongitud() { return longitud.get(); }
 
     /**
      * Método que establece la longitud
-     * @return 
      */
     public void setLongitud(int longitud) { this.longitud.set(longitud); }
 
     /**
      * Método que devuelve la propiedad patron
-     * @return 
+     * @return patron
      */
     public StringProperty patronProperty() { return patron; }
 
     /**
      * Método que devuelve el patrón declarada
-     * @return 
+     * @return cadena de patron
      */
     public String getPatron() { return patron.get(); }
 
     /**
      * Método que establece el patrón
-     * @return 
-     */
+       */
     public void setPatron(String patron) { this.patron.set(patron); }
 }
