@@ -55,7 +55,7 @@ public class SuperficieCirculoTest {
         System.out.println("supCircunferencia para números <0");
         double r = -10;
         SuperficieCirculo instance = new SuperficieCirculo();
-        double expResult = 0;
+        double expResult = -1;
         double result = instance.supCircunferencia(r);
         assertEquals(expResult, result,0.0);  
     }
